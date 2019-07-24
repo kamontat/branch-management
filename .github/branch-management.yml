@@ -1,0 +1,16 @@
+# 1. new branch pushed
+# 2. no new push on branch for <warning>
+# 3. create label with author name and <warningLabel> label
+# 4. if do this list of action to wait delete branch
+#    - add new <onholdLabel> label
+#    - push new commit to branch
+
+# create warning issue
+warning: 1d
+
+# add label to pr
+warningLabel: warning
+onholdLabel: wait
+
+# delete if no new message from author
+deletion: 1d
