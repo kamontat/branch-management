@@ -9,7 +9,7 @@
 #    - close related issue
 
 # create warning issue
-warning: 1d
+warning: 30m
 
 # add label to pr
 warningLabel: warning
