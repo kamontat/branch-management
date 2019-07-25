@@ -17,3 +17,6 @@ onholdLabel: wait
 
 # delete if no new message from author
 deletion: 1d
+
+# this username will add as a assignee of the warning issue
+admin: kamontat
