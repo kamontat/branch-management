@@ -9,7 +9,7 @@
 #    - close related issue
 
 # create warning issue
-warning: 30d
+warning: 15m
 
 # add label to issue
 warnedLabel: warned
@@ -17,7 +17,7 @@ onholdingLabel: onholding
 deletedLabel: deleted
 
 # delete if no new message from author
-deletion: 7d
+deletion: 1d
 
 # this username will add as a assignee of the warning issue
 admin: kamontat
