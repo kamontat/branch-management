@@ -4,6 +4,9 @@
 # 4. if do this list of action to wait delete branch
 #    - add new <onholdLabel> label
 #    - push new commit to branch
+# 5. if do this list of action will be closed/delete branch
+#    - do nothing until time exceed
+#    - close related issue
 
 # create warning issue
 warning: 1d
