@@ -9,7 +9,7 @@ untilCreateIssue: "10m"
 untilDeleteBranch: "12m"
 
 # repeating notify need-action label issues
-repeatNotify: "10m"
+repeatNotify: "2m"
 
 # Issues or Pull Requests with these labels will be wait for do some action
 needActionLabel: "need-action"
