@@ -1,4 +1,3 @@
 # test-gh-app
  
- hello
-world
+hello world
