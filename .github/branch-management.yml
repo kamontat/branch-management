@@ -1,23 +1,24 @@
-# 1. new branch pushed
-# 2. no new push on branch for <warning> time
-# 3. create label with author name and <warnedLabel> label
-# 4. if do this list of action to wait delete branch
-#    - add new <onholdLabel> label
-#    - push new commit to branch
-# 5. if do this list of action will be closed/delete branch
-#    - do nothing until time exceed
-#    - close related issue
+#####################
+# Branch management #
+#####################
 
-# create warning issue
-warning: 15m
+# Number of days of inactivity branch before an Issue will be created.
+untilCreateIssue: "10d"
 
-# add label to issue
-warnedLabel: warned
-onholdingLabel: onholding
-deletedLabel: deleted
+# Number of days of inactivity before an Issue and Related branch will be closed and deleted.
+untilDeleteBranch: "1d"
 
-# delete if no new message from author
-deletion: 1d
+# Issues or Pull Requests with these labels will be wait for do some action
+needActionLabel: "need-action"
 
-# this username will add as a assignee of the warning issue
-admin: kamontat
+# First action: hold the Branch and Issue as it will be used in the future
+onholdLabel: "onhold"
+
+# Second action: create PR by related Branch
+createPRLabel: "need-pr"
+
+# Third action: closed this Issue and delete related Branch
+deleteBranchLabel: "delete-branch"
+
+# This is a label to identify issue as a branch management
+branchManagementLabel: "branch-management"
