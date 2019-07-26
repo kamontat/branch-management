@@ -3,10 +3,10 @@
 #####################
 
 # Number of days of inactivity branch before an Issue will be created.
-untilCreateIssue: "10d"
+untilCreateIssue: "1d"
 
 # Number of days of inactivity before an Issue and Related branch will be closed and deleted.
-untilDeleteBranch: "1d"
+untilDeleteBranch: "5d"
 
 # Issues or Pull Requests with these labels will be wait for do some action
 needActionLabel: "need-action"
