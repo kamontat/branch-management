@@ -3,10 +3,10 @@
 #####################
 
 # Number of days of inactivity branch before an Issue will be created.
-untilCreateIssue: "10d"
+untilCreateIssue: "1d"
 
 # Number of days of inactivity before an Issue and Related branch will be closed and deleted.
-untilDeleteBranch: "1d"
+untilDeleteBranch: "5d"
 
 # repeating notify need-action label issues
 repeatNotify: "10m"
