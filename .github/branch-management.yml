@@ -3,10 +3,13 @@
 #####################
 
 # Number of days of inactivity branch before an Issue will be created.
-untilCreateIssue: "1d"
+untilCreateIssue: "10d"
 
 # Number of days of inactivity before an Issue and Related branch will be closed and deleted.
-untilDeleteBranch: "5d"
+untilDeleteBranch: "1d"
+
+# repeating notify need-action label issues
+repeatNotify: "10m"
 
 # Issues or Pull Requests with these labels will be wait for do some action
 needActionLabel: "need-action"
@@ -22,3 +25,6 @@ deleteBranchLabel: "delete-branch"
 
 # This is a label to identify issue as a branch management
 branchManagementLabel: "branch-management"
+
+# This is a github username that will notify if issue create or need update
+admin: ""
