@@ -6,7 +6,7 @@
 untilCreateIssue: "10m"
 
 # Number of days of inactivity before an Issue and Related branch will be closed and deleted.
-untilDeleteBranch: "1h"
+untilDeleteBranch: "12m"
 
 # repeating notify need-action label issues
 repeatNotify: "10m"
